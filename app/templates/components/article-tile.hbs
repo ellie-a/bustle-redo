@@ -1,21 +1,23 @@
   <div class="col s12 m7">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src={{article.photo}}>
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <h4 class="header">{{article.headline}}</h4>
-      <p>
-        {{article.excerpt}}
-      </p>
-      <p>
-        {{article.author}} {{article.date}}
-      </p>
+    {{#link-to 'article' article.id}}
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src={{article.photo}}>
         </div>
-        <!-- <div class="card-action">
-          <a href="#">This is a link</a>
-        </div> -->
+        <div class="card-stacked">
+          <div class="card-content">
+            <h4 class="header">{{article.headline}}</h4>
+        <p>
+          {{article.excerpt}}
+        </p>
+        <p>
+          {{article.author}} {{article.date}}
+        </p>
+          </div>
+          <!-- <div class="card-action">
+            <a href="#">This is a link</a>
+          </div> -->
+        </div>
       </div>
-    </div>
+    {{/link-to}}
   </div>
