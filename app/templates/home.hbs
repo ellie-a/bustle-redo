@@ -1,9 +1,11 @@
-<div class="container">
+{{#each model as |article|}}
+  {{carousel-head article=article}}
+{{/each}}
 
+<div class="container">
   <ul>
     {{#each model as |article|}}
       {{article-tile article=article}}
     {{/each}}
   </ul>
-
 </div>

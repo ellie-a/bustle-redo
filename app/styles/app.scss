@@ -1,0 +1,28 @@
+nav ul a,
+nav .brand-logo {
+  color: black;
+}
+
+//card styles
+.card {
+  color: lighten(black, 30%);
+  .card-image {
+    margin: 2.5% 0 2.5% 2.5%;
+  }
+  .card-content{
+    p {
+      margin-top: 5%;
+    }
+    #right {
+      float: right;
+    }
+  }
+}
+
+#title-image {
+  width: 100%;
+}
+
+// .carousel {
+//   height: 100px !important;
+// }
