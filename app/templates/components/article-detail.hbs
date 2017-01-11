@@ -1,8 +1,11 @@
-<h1 class="center-align">{{article.headline}}</h1>
-<img class="center-align" src="{{article.photo}}" alt="" />
-<div class="content col m6 center-align">
-  <h3 >{{article.author}} {{article.date}}</h3>
+<div class="container article">
+  <h1 class="center-align thin">{{article.headline}}</h1>
+  <img src="{{article.photo}}" alt="" />
+  <div class="container">
+    <div class="content col m6 flow-text">
+      <p class="bold" ><b>{{article.author}} {{article.date}}</b></p>
+      <p>{{article.body}}</p>
 
-    {{article.body}}
-  
+    </div>
+  </div>
 </div>

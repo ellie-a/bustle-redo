@@ -1,6 +1,8 @@
-{{#each model as |article|}}
-  {{carousel-head article=article}}
-{{/each}}
+<div class="carousel carousel-slider center" data-indicators="true">
+    {{#each model as |article|}}
+      {{carousel-head article=article}}
+    {{/each}}
+</div>
 
 <div class="container">
   <ul>
