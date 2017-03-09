@@ -1,7 +1,6 @@
-# Bustle
+# Bustle Redo
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A redo of the Bustle news site to practice using the ember framework. 
 
 ## Prerequisites
 
